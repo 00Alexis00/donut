@@ -1,3 +1,8 @@
+import 'package:donut/tab/burger_tab.dart';
+import 'package:donut/tab/donut_tab.dart';
+import 'package:donut/tab/pancake_tab.dart';
+import 'package:donut/tab/pizza_tab.dart';
+import 'package:donut/tab/smoothie_tab.dart';
 import 'package:donut/utils/my_tab.dart';
 import 'package:flutter/material.dart';
 
@@ -48,7 +53,7 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   Text('I want to ', style: TextStyle(fontSize: 24)),
                   Text(
-                    'EAT',
+                    'Eat',
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
@@ -63,6 +68,17 @@ class _HomePageState extends State<HomePage> {
             TabBar(tabs: myTabs),
 
             //contenido de pestañas tabbar view
+            Expanded(
+              child: TabBarView(
+                children: [
+                  DonutTab(),
+                  burgerTab(),
+                  smoothieTab(),
+                  pancakeTab(),
+                  pizzaTab(),
+                ]
+              ),
+            ),
             //carrito car
           ],
         ),
