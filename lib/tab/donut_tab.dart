@@ -23,11 +23,11 @@ final List donasventa  = [
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         //numero de columnas
         crossAxisCount: 2,
-        childAspectRatio: 1/1.4,
+        childAspectRatio: 1/1.45, //1.45,
       ),
       itemCount: donasventa.length,
         //relacion de aspecto
-        
+
         //lo que se va a construir en el grid
       itemBuilder: (context, index) {
         return DonutTile(
