@@ -1,16 +1,14 @@
-# donut
+# Donut — Flutter Demo App 🍩
 
-A new Flutter project.
+A small, friendly Flutter app showcasing a donut menu with tabs and an interactive grid of donut items. Great for learning Flutter UI, asset management, and GridView use.
 
-## Getting Started
+## Features
+- Tab bar with custom icons
+- Grid of donut cards with image, name and price
+- Easy-to-follow structure for beginners
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Quick start
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/00Alexis00/donut.git
+   cd donut
